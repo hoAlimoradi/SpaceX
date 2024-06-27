@@ -2,6 +2,27 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LoggingAPI/LoggingAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PermissionAPI/PermissionAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LauncheAPI/LauncheAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetworkAPI/NetworkAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DataModelAPI/DataModelAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DatabaseAPI/DatabaseAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonAPI/CommonAPI.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ExporterAPI/ExporterAPI.xcodeproj">
    </FileRef>
    <FileRef
