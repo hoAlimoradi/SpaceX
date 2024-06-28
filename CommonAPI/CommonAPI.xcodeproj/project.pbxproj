@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C651333A2C2EC1B200DE3732 /* extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65133392C2EC1B200DE3732 /* extension+String.swift */; };
+		C651333C2C2EC48900DE3732 /* NetworkAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651333B2C2EC48900DE3732 /* NetworkAPIError.swift */; };
+		C6B192CA2C2EA919001EE8E4 /* extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B192C92C2EA919001EE8E4 /* extension+Date.swift */; };
+		C6B192E72C2EAF88001EE8E4 /* extension+DecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B192E62C2EAF88001EE8E4 /* extension+DecodingError.swift */; };
 		C6FF90722C2E284300B0087A /* CommonAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = C6FF90712C2E284300B0087A /* CommonAPI.docc */; };
 		C6FF90782C2E284300B0087A /* CommonAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FF906D2C2E284300B0087A /* CommonAPI.framework */; };
 		C6FF907D2C2E284300B0087A /* CommonAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF907C2C2E284300B0087A /* CommonAPITests.swift */; };
 		C6FF907E2C2E284300B0087A /* CommonAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C6FF90702C2E284300B0087A /* CommonAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FF91342C2E331C00B0087A /* extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF91332C2E331C00B0087A /* extension+Data.swift */; };
+		C6FF914E2C2E437D00B0087A /* HttpClientManagerAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF914D2C2E437D00B0087A /* HttpClientManagerAPIError.swift */; };
+		C6FF91502C2E43A700B0087A /* CustomLocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF914F2C2E43A700B0087A /* CustomLocalizedError.swift */; };
+		C6FF91522C2E441A00B0087A /* extension+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF91512C2E441A00B0087A /* extension+Error.swift */; };
+		C6FF91542C2E444400B0087A /* extension+CustomLocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF91532C2E444400B0087A /* extension+CustomLocalizedError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +33,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C65133392C2EC1B200DE3732 /* extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+String.swift"; sourceTree = "<group>"; };
+		C651333B2C2EC48900DE3732 /* NetworkAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIError.swift; sourceTree = "<group>"; };
+		C6B192C92C2EA919001EE8E4 /* extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Date.swift"; sourceTree = "<group>"; };
+		C6B192E62C2EAF88001EE8E4 /* extension+DecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+DecodingError.swift"; sourceTree = "<group>"; };
 		C6FF906D2C2E284300B0087A /* CommonAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FF90702C2E284300B0087A /* CommonAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonAPI.h; sourceTree = "<group>"; };
 		C6FF90712C2E284300B0087A /* CommonAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CommonAPI.docc; sourceTree = "<group>"; };
 		C6FF90772C2E284300B0087A /* CommonAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FF907C2C2E284300B0087A /* CommonAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAPITests.swift; sourceTree = "<group>"; };
+		C6FF91332C2E331C00B0087A /* extension+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Data.swift"; sourceTree = "<group>"; };
+		C6FF914D2C2E437D00B0087A /* HttpClientManagerAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientManagerAPIError.swift; sourceTree = "<group>"; };
+		C6FF914F2C2E43A700B0087A /* CustomLocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocalizedError.swift; sourceTree = "<group>"; };
+		C6FF91512C2E441A00B0087A /* extension+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Error.swift"; sourceTree = "<group>"; };
+		C6FF91532C2E444400B0087A /* extension+CustomLocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+CustomLocalizedError.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,8 @@
 		C6FF906F2C2E284300B0087A /* CommonAPI */ = {
 			isa = PBXGroup;
 			children = (
+				C6FF914B2C2E435500B0087A /* Errors */,
+				C6FF91322C2E32ED00B0087A /* Extentions */,
 				C6FF90702C2E284300B0087A /* CommonAPI.h */,
 				C6FF90712C2E284300B0087A /* CommonAPI.docc */,
 			);
@@ -83,6 +103,29 @@
 				C6FF907C2C2E284300B0087A /* CommonAPITests.swift */,
 			);
 			path = CommonAPITests;
+			sourceTree = "<group>";
+		};
+		C6FF91322C2E32ED00B0087A /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				C6FF91332C2E331C00B0087A /* extension+Data.swift */,
+				C6FF91512C2E441A00B0087A /* extension+Error.swift */,
+				C6FF91532C2E444400B0087A /* extension+CustomLocalizedError.swift */,
+				C6B192C92C2EA919001EE8E4 /* extension+Date.swift */,
+				C6B192E62C2EAF88001EE8E4 /* extension+DecodingError.swift */,
+				C65133392C2EC1B200DE3732 /* extension+String.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		C6FF914B2C2E435500B0087A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				C6FF914D2C2E437D00B0087A /* HttpClientManagerAPIError.swift */,
+				C6FF914F2C2E43A700B0087A /* CustomLocalizedError.swift */,
+				C651333B2C2EC48900DE3732 /* NetworkAPIError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +238,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6FF90722C2E284300B0087A /* CommonAPI.docc in Sources */,
+				C6FF91502C2E43A700B0087A /* CustomLocalizedError.swift in Sources */,
+				C651333A2C2EC1B200DE3732 /* extension+String.swift in Sources */,
+				C6FF914E2C2E437D00B0087A /* HttpClientManagerAPIError.swift in Sources */,
+				C6B192CA2C2EA919001EE8E4 /* extension+Date.swift in Sources */,
+				C6FF91542C2E444400B0087A /* extension+CustomLocalizedError.swift in Sources */,
+				C651333C2C2EC48900DE3732 /* NetworkAPIError.swift in Sources */,
+				C6FF91522C2E441A00B0087A /* extension+Error.swift in Sources */,
+				C6FF91342C2E331C00B0087A /* extension+Data.swift in Sources */,
+				C6B192E72C2EAF88001EE8E4 /* extension+DecodingError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +465,7 @@
 		C6FF90852C2E284300B0087A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JHFBF62TJL;
@@ -430,6 +483,7 @@
 		C6FF90862C2E284300B0087A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JHFBF62TJL;
