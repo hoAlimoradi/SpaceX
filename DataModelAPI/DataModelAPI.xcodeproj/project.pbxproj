@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C651332E2C2EBCC700DE3732 /* LaunchItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651332D2C2EBCC700DE3732 /* LaunchItemModel.swift */; };
 		C6FF90BA2C2E2CFB00B0087A /* DataModelAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = C6FF90B92C2E2CFB00B0087A /* DataModelAPI.docc */; };
 		C6FF90BB2C2E2CFB00B0087A /* DataModelAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C6FF90B82C2E2CFB00B0087A /* DataModelAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C651332D2C2EBCC700DE3732 /* LaunchItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchItemModel.swift; sourceTree = "<group>"; };
 		C6FF90B52C2E2CFB00B0087A /* DataModelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataModelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FF90B82C2E2CFB00B0087A /* DataModelAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModelAPI.h; sourceTree = "<group>"; };
 		C6FF90B92C2E2CFB00B0087A /* DataModelAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DataModelAPI.docc; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				C6FF90B82C2E2CFB00B0087A /* DataModelAPI.h */,
 				C6FF90B92C2E2CFB00B0087A /* DataModelAPI.docc */,
+				C651332D2C2EBCC700DE3732 /* LaunchItemModel.swift */,
 			);
 			path = DataModelAPI;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6FF90BA2C2E2CFB00B0087A /* DataModelAPI.docc in Sources */,
+				C651332E2C2EBCC700DE3732 /* LaunchItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

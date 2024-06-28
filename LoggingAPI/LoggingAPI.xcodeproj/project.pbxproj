@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		C6FF91282C2E2EDE00B0087A /* LoggingAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = C6FF91272C2E2EDE00B0087A /* LoggingAPI.docc */; };
 		C6FF91292C2E2EDE00B0087A /* LoggingAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C6FF91262C2E2EDE00B0087A /* LoggingAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FF91362C2E337800B0087A /* LoggingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF91352C2E337800B0087A /* LoggingAPI.swift */; };
+		C6FF91402C2E38F600B0087A /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF913F2C2E38F600B0087A /* LogLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6FF91232C2E2EDE00B0087A /* LoggingAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggingAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FF91262C2E2EDE00B0087A /* LoggingAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggingAPI.h; sourceTree = "<group>"; };
 		C6FF91272C2E2EDE00B0087A /* LoggingAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LoggingAPI.docc; sourceTree = "<group>"; };
+		C6FF91352C2E337800B0087A /* LoggingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingAPI.swift; sourceTree = "<group>"; };
+		C6FF913F2C2E38F600B0087A /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			children = (
 				C6FF91262C2E2EDE00B0087A /* LoggingAPI.h */,
 				C6FF91272C2E2EDE00B0087A /* LoggingAPI.docc */,
+				C6FF91352C2E337800B0087A /* LoggingAPI.swift */,
+				C6FF913F2C2E38F600B0087A /* LogLevel.swift */,
 			);
 			path = LoggingAPI;
 			sourceTree = "<group>";
@@ -132,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6FF91362C2E337800B0087A /* LoggingAPI.swift in Sources */,
+				C6FF91402C2E38F600B0087A /* LogLevel.swift in Sources */,
 				C6FF91282C2E2EDE00B0087A /* LoggingAPI.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
